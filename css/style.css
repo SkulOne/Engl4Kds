@@ -99,11 +99,12 @@ header {
     margin: 20px 25px;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .card:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,.4);
-    transition: .3s;
+    transition: .5s;
 }
 
 .image-class {
@@ -216,8 +217,9 @@ input:checked + .slider:before {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .4);
-    transition: 1s;
+    transition: .5s;
     backface-visibility: hidden;
+    overflow: hidden;
 }
 
 .front-rotate{

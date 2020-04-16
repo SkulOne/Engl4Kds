@@ -8,7 +8,8 @@
     cursor: pointer;
     transition: all .5s ease-in-out;
     z-index: 100;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
+    left: 20px;
 
 }
 
@@ -39,16 +40,20 @@
     transform: translateY(9px);
 }
 
+.menu-btn-container.open{
+    margin-left: 25px;
+}
+
 .menu-btn-container.open .menu-btn-burger {
-    transform: translateX(-100px);
+    transform: translateX(-120px);
     background: transparent;
     box-shadow: none;
 }
 .menu-btn-container.open .menu-btn-burger::before {
-    transform: rotate(45deg) translate(35px, -35px);
+    transform: rotate(45deg) translate(45px, -45px);
 }
 .menu-btn-container.open .menu-btn-burger::after {
-    transform: rotate(-45deg) translate(35px, 35px);
+    transform: rotate(-45deg) translate(45px, 45px);
 }
 
 .menu-btn-container:hover .menu-btn-burger:after,

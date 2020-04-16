@@ -22,14 +22,14 @@ class LevelCard {
 
     createImage(index) {
         let urls = {
-            0: "../assets/Animal(B)/bird.f0a80efa.jpg",
-            1: "../assets/action(B)/swim.bddf0687.jpg",
-            2: "../assets/action(C)/drop.8cb9f43a.jpg",
-            3: "../assets/Adjective/friendly.ebfd8e9a.jpg",
-            4: "../assets/Animal(A)/cat.e91220bb.jpg",
-            5: "../assets/action(A)/dance.c70cc103.jpg",
-            6: "../assets/Clothes/blouse.37a6d8fa.jpg",
-            7: "../assets/Emotion/smile.f55cb470.jpg"
+            0: "assets/Animal(B)/bird.f0a80efa.jpg",
+            1: "assets/action(B)/swim.bddf0687.jpg",
+            2: "assets/action(C)/drop.8cb9f43a.jpg",
+            3: "assets/Adjective/friendly.ebfd8e9a.jpg",
+            4: "assets/Animal(A)/cat.e91220bb.jpg",
+            5: "assets/action(A)/dance.c70cc103.jpg",
+            6: "assets/Clothes/blouse.37a6d8fa.jpg",
+            7: "assets/Emotion/smile.f55cb470.jpg"
         };
         this.image = document.createElement('img');
         this.image.setAttribute('src', urls[index]);
@@ -124,336 +124,336 @@ let cards = {
         0: {
             word: "cry",
             translate: "плакать",
-            photo: "../assets/action(A)/cry.26a84a2c.jpg"
+            photo: "assets/action(A)/cry.26a84a2c.jpg"
         },
         1: {
             word: "dance",
             translate: "танцевать",
-            photo: "../assets/action(A)/dance.c70cc103.jpg"
+            photo: "assets/action(A)/dance.c70cc103.jpg"
         },
         2: {
             word: "dive",
             translate: "плавать",
-            photo: "../assets/action(A)/dive.41b7d509.jpg"
+            photo: "assets/action(A)/dive.41b7d509.jpg"
         },
         3: {
             word: "draw",
             translate: "рисовать",
-            photo: "../assets/action(A)/draw.82be9665.jpg"
+            photo: "assets/action(A)/draw.82be9665.jpg"
         },
         4: {
             word: "fish",
             translate: "ловить рыбу",
-            photo: "../assets/action(A)/fish.27eb7746.jpg"
+            photo: "assets/action(A)/fish.27eb7746.jpg"
         },
         5: {
             word: "fly",
             translate: "летать",
-            photo: "../assets/action(A)/fly.6122fa03.jpg"
+            photo: "assets/action(A)/fly.6122fa03.jpg"
         },
         6: {
             word: "hug",
             translate: "обнимать",
-            photo: "../assets/action(A)/hug.9dda3c46.jpg"
+            photo: "assets/action(A)/hug.9dda3c46.jpg"
         },
         7: {
             word: "jump",
             translate: "прыгать",
-            photo: "../assets/action(A)/jump.ac945820.jpg"
+            photo: "assets/action(A)/jump.ac945820.jpg"
         }
     },
     "Action (set B)": {
         0: {
             word: "open",
             translate: "открывать",
-            photo: "../assets/action(B)/open.191b88af.jpg"
+            photo: "assets/action(B)/open.191b88af.jpg"
         },
         1: {
             word: "play",
             translate: "играть",
-            photo: "../assets/action(B)/play.75cbc10c.jpg"
+            photo: "assets/action(B)/play.75cbc10c.jpg"
         },
         2: {
             word: "point",
             translate: "указывать",
-            photo: "../assets/action(B)/point.ba50996a.jpg"
+            photo: "assets/action(B)/point.ba50996a.jpg"
         },
         3: {
             word: "ride",
             translate: "ездить",
-            photo: "../assets/action(B)/ride.b7a77474.jpg"
+            photo: "assets/action(B)/ride.b7a77474.jpg"
         },
         4: {
             word: "run",
             translate: "бегать",
-            photo: "../assets/action(B)/run.0e8d157f.jpg"
+            photo: "assets/action(B)/run.0e8d157f.jpg"
         },
         5: {
             word: "sing",
             translate: "петь",
-            photo: "../assets/action(B)/sing.d2d52786.jpg"
+            photo: "assets/action(B)/sing.d2d52786.jpg"
         },
         6: {
             word: "skip",
             translate: "пропускать, прыгать",
-            photo: "../assets/action(B)/skip.081bf61e.jpg"
+            photo: "assets/action(B)/skip.081bf61e.jpg"
         },
         7: {
             word: "swim",
             translate: "плавать",
-            photo: "../assets/action(B)/swim.bddf0687.jpg"
+            photo: "assets/action(B)/swim.bddf0687.jpg"
         }
     },
     "Action (set C)": {
         0: {
             word: "argue",
             translate: "спорить",
-            photo: "../assets/action(C)/argue.06b9a73a.jpg"
+            photo: "assets/action(C)/argue.06b9a73a.jpg"
         },
         1: {
             word: "build",
             translate: "строить",
-            photo: "../assets/action(C)/build.0ddc52ca.jpg"
+            photo: "assets/action(C)/build.0ddc52ca.jpg"
         },
         2: {
             word: "carry",
             translate: "нести",
-            photo: "../assets/action(C)/carry.4e29617e.jpg"
+            photo: "assets/action(C)/carry.4e29617e.jpg"
         },
         3: {
             word: "catch",
             translate: "ловить",
-            photo: "../assets/action(C)/catch.02ee0391.jpg"
+            photo: "assets/action(C)/catch.02ee0391.jpg"
         },
         4: {
             word: "drive",
             translate: "водить машину",
-            photo: "../assets/action(C)/drive.7756db52.jpg"
+            photo: "assets/action(C)/drive.7756db52.jpg"
         },
         5: {
             word: "drop",
             translate: "падать",
-            photo: "../assets/action(C)/drop.8cb9f43a.jpg"
+            photo: "assets/action(C)/drop.8cb9f43a.jpg"
         },
         6: {
             word: "pull",
             translate: "тянуть",
-            photo: "../assets/action(C)/pull.958b53a6.jpg"
+            photo: "assets/action(C)/pull.958b53a6.jpg"
         },
         7: {
             word: "push",
             translate: "толкать",
-            photo: "../assets/action(C)/push.f5183491.jpg"
+            photo: "assets/action(C)/push.f5183491.jpg"
         }
     },
     "Adjective": {
         0: {
             word: "big",
             translate: "большой",
-            photo: "../assets/Adjective/big.15366658.jpg"
+            photo: "assets/Adjective/big.15366658.jpg"
         },
         1: {
             word: "small",
             translate: "маленький",
-            photo: "../assets/Adjective/small.a9f7a59d.jpg"
+            photo: "assets/Adjective/small.a9f7a59d.jpg"
         },
         2: {
             word: "fast",
             translate: "быстрый",
-            photo: "../assets/Adjective/fast.2d5d071e.jpg"
+            photo: "assets/Adjective/fast.2d5d071e.jpg"
         },
         3: {
             word: "slow",
             translate: "медленный",
-            photo: "../assets/Adjective/slow.7bbcaa16.jpg"
+            photo: "assets/Adjective/slow.7bbcaa16.jpg"
         },
         4: {
             word: "friendly",
             translate: "дружелюбный",
-            photo: "../assets/Adjective/friendly.ebfd8e9a.jpg"
+            photo: "assets/Adjective/friendly.ebfd8e9a.jpg"
         },
         5: {
             word: "unfriendly",
             translate: "недружелюбный",
-            photo: "../assets/Adjective/unfriendly.9bb158bd.jpg"
+            photo: "assets/Adjective/unfriendly.9bb158bd.jpg"
         },
         6: {
             word: "young",
             translate: "молодой",
-            photo: "../assets/Adjective/young.7498933a.jpg"
+            photo: "assets/Adjective/young.7498933a.jpg"
         },
         7: {
             word: "old",
             translate: "старый",
-            photo: "../assets/Adjective/old.76174203.jpg"
+            photo: "assets/Adjective/old.76174203.jpg"
         }
     },
     "Animal (set A)": {
         0: {
             word: "cat",
             translate: "кошка",
-            photo: "../assets/Animal(A)/cat.e91220bb.jpg"
+            photo: "assets/Animal(A)/cat.e91220bb.jpg"
         },
         1: {
             word: "chick",
             translate: "цыплёнок",
-            photo: "../assets/Animal(A)/chick.11bf9adb.jpg"
+            photo: "assets/Animal(A)/chick.11bf9adb.jpg"
         },
         2: {
             word: "chicken",
             translate: "курица",
-            photo: "../assets/Animal(A)/chicken.915430df.jpg"
+            photo: "assets/Animal(A)/chicken.915430df.jpg"
         },
         3: {
             word: "dog",
             translate: "собака",
-            photo: "../assets/Animal(A)/dog.109811ba.jpg"
+            photo: "assets/Animal(A)/dog.109811ba.jpg"
         },
         4: {
             word: "horse",
             translate: "лошадь",
-            photo: "../assets/Animal(A)/horse.8a825b3b.jpg"
+            photo: "assets/Animal(A)/horse.8a825b3b.jpg"
         },
         5: {
             word: "pig",
             translate: "свинья",
-            photo: "../assets/Animal(A)/pig.72810927.jpg"
+            photo: "assets/Animal(A)/pig.72810927.jpg"
         },
         6: {
             word: "rabbit",
             translate: "кролик",
-            photo: "../assets/Animal(A)/rabbit.7242c16a.jpg"
+            photo: "assets/Animal(A)/rabbit.7242c16a.jpg"
         },
         7: {
             word: "sheep",
             translate: "овца",
-            photo: "../assets/Animal(A)/sheep.8d2deb43.jpg"
+            photo: "assets/Animal(A)/sheep.8d2deb43.jpg"
         }
     },
     "Animal (set B)": {
         0: {
             word: "bird",
             translate: "птица",
-            photo: "../assets/Animal(B)/bird.f0a80efa.jpg"
+            photo: "assets/Animal(B)/bird.f0a80efa.jpg"
         },
         1: {
             word: "fish",
             translate: "рыба",
-            photo: "../assets/Animal(B)/fish1.296cfcd4.jpg"
+            photo: "assets/Animal(B)/fish1.296cfcd4.jpg"
         },
         2: {
             word: "frog",
             translate: "жаба",
-            photo: "../assets/Animal(B)/frog.e8a07dca.jpg"
+            photo: "assets/Animal(B)/frog.e8a07dca.jpg"
         },
         3: {
             word: "giraffe",
             translate: "жираф",
-            photo: "../assets/Animal(B)/giraffe.32ab22c7.jpg"
+            photo: "assets/Animal(B)/giraffe.32ab22c7.jpg"
         },
         4: {
             word: "lion",
             translate: "лев",
-            photo: "../assets/Animal(B)/lion.273c0650.jpg"
+            photo: "assets/Animal(B)/lion.273c0650.jpg"
         },
         5: {
             word: "mouse",
             translate: "мышка",
-            photo: "../assets/Animal(B)/mouse.a73259d9.jpg"
+            photo: "assets/Animal(B)/mouse.a73259d9.jpg"
         },
         6: {
             word: "turtle",
             translate: "черепаха",
-            photo: "../assets/Animal(B)/turtle.b1e5849e.jpg"
+            photo: "assets/Animal(B)/turtle.b1e5849e.jpg"
         },
         7: {
             word: "dolphin",
             translate: "дельфин",
-            photo: "../assets/Animal(B)/dolphin.905447d1.jpg"
+            photo: "assets/Animal(B)/dolphin.905447d1.jpg"
         }
     },
     "Clothes": {
         0: {
             word: "skirt",
             translate: "юбка",
-            photo: "../assets/Clothes/skirt.b0ee2c91.jpgg"
+            photo: "assets/Clothes/skirt.b0ee2c91.jpgg"
         },
         1: {
             word: "pants",
             translate: "брюки",
-            photo: "../assets/Clothes/pants.197f1069.jpg"
+            photo: "assets/Clothes/pants.197f1069.jpg"
         },
         2: {
             word: "blouse",
             translate: "блузка",
-            photo: "../assets/Clothes/blouse.37a6d8fa.jpg"
+            photo: "assets/Clothes/blouse.37a6d8fa.jpg"
         },
         3: {
             word: "dress",
             translate: "платье",
-            photo: "../assets/Clothes/dress.264b02bf.jpg"
+            photo: "assets/Clothes/dress.264b02bf.jpg"
         },
         4: {
             word: "boot",
             translate: "ботинки",
-            photo: "../assets/Clothes/boot.1a1ae11a.jpgа"
+            photo: "assets/Clothes/boot.1a1ae11a.jpgа"
         },
         5: {
             word: "shirt",
             translate: "рубашк",
-            photo: "../assets/Clothes/shirt.3bed1473.jpg"
+            photo: "assets/Clothes/shirt.3bed1473.jpg"
         },
         6: {
             word: "coat",
             translate: "пальто",
-            photo: "../assets/Clothes/coat.8017b6ca.jpg"
+            photo: "assets/Clothes/coat.8017b6ca.jpg"
         },
         7: {
             word: "shoe",
             translate: "туфли",
-            photo: "../assets/Clothes/shoe.5522fbfd.jpg"
+            photo: "assets/Clothes/shoe.5522fbfd.jpg"
         }
     },
     "Emotion": {
         0: {
             word: "sad",
             translate: "грустный",
-            photo: "../assets/Emotion/sad.5942f979.jpg"
+            photo: "assets/Emotion/sad.5942f979.jpg"
         },
         1: {
             word: "angry",
             translate: "сердитый",
-            photo: "../assets/Emotion/angry.66b1074a.jpg"
+            photo: "assets/Emotion/angry.66b1074a.jpg"
         },
         2: {
             word: "happy",
             translate: "счастливый",
-            photo: "../assets/Emotion/happy.996126dd.jpg"
+            photo: "assets/Emotion/happy.996126dd.jpg"
         },
         3: {
             word: "tired",
             translate: "уставший",
-            photo: "../assets/Emotion/tired.a169662a.jpg"
+            photo: "assets/Emotion/tired.a169662a.jpg"
         },
         4: {
             word: "surprised",
             translate: "удивлённый",
-            photo: "../assets/Emotion/surprised.0667ed30.jpg"
+            photo: "assets/Emotion/surprised.0667ed30.jpg"
         },
         5: {
             word: "scared",
             translate: "испуганный",
-            photo: "../assets/Emotion/scared.e2747b49.jpg"
+            photo: "assets/Emotion/scared.e2747b49.jpg"
         },
         6: {
             word: "smile",
             translate: "смех",
-            photo: "../assets/Emotion/smile.f55cb470.jpg"
+            photo: "assets/Emotion/smile.f55cb470.jpg"
         },
         7: {
             word: "laugh",
             translate: "laugh",
-            photo: "../assets/Emotion/laugh.8bbca0b9.jpg"
+            photo: "assets/Emotion/laugh.8bbca0b9.jpg"
         }
     }
 };
