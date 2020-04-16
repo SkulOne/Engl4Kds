@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English for Kids</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu-button.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<nav class="menu-list menu-list-open">
+    <a class="header-item" onclick="createSections()" href="#">Main Page</a>
+    <a class="header-item" onclick="createWorldCards(`Action (set A)`)" href="#">Action (set A)</a>
+    <a class="header-item" onclick="createWorldCards(`Action (set B)`)" href="#">Action (set B)</a>
+    <a class="header-item" onclick="createWorldCards(`Action (set C)`)" href="#">Action (set C)</a>
+    <a class="header-item" onclick="createWorldCards(`Adjective`)" href="#">Adjective</a>
+    <a class="header-item" onclick="createWorldCards(`Animal (set B)`)" href="#">Animal (set A)</a>
+    <a class="header-item" onclick="createWorldCards(`Animal (set B)`)" href="#">Animal (set B)</a>
+    <a class="header-item" onclick="createWorldCards(`Clothes`)" href="#">Clothes</a>
+    <a class="header-item" onclick="createWorldCards(`Emotion`)" href="#">Emotion</a>
+</nav>
+<header>
+    <div class="menu-btn-container">
+        <div class="menu-btn-burger"></div>
+    </div>
+    <div class="switch-container">
+        <label class="switch">
+            <span class="train">TRAIN</span>
+            <input type="checkbox" class="switch-input" checked>
+            <span class="slider"></span>
+            <span class="play">PLAY</span>
+        </label>
+    </div>
+</header>
+<main>
+    <div class="cards "></div>
+</main>
+<script src="../js/script.js"></script>
+</body>
+</html>
