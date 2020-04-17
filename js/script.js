@@ -458,42 +458,6 @@ let cards = {
     }
 };
 
-
-window.addEventListener("DOMContentLoaded", function () {
-    createSections();
-
-    const checkBox = document.querySelector('.switch-input');
-    const train = document.querySelector('.train');
-    const play = document.querySelector('.play');
-    let cardsBackground = document.querySelectorAll('.background');
-    checkBox.addEventListener('click', () => {
-        if (checkBox.checked) {
-            train.style.display = '';
-            play.style.display = 'none';
-            cardsBackground.forEach(cards => cards.classList.remove('background-orange'));
-        } else {
-            train.style.display = 'none';
-            play.style.display = 'block';
-            cardsBackground.forEach(cards => cards.classList.add('background-orange'));
-        }
-    });
-
-    const menuBtn = document.querySelector('.menu-btn-container');
-    const menu = document.querySelector('.menu-list');
-    let menuOpen = false;
-    menuBtn.addEventListener('click', () => {
-        if (!menuOpen) {
-            menuBtn.classList.add('open');
-            menu.classList.remove('menu-list-open');
-            menuOpen = true;
-        } else {
-            menuBtn.classList.remove('open');
-            menu.classList.add('menu-list-open');
-            menuOpen = false;
-        }
-    });
-});
-
 function removeSectionCards() {
     while (cardsContainer.firstChild) {
         cardsContainer.removeChild(cardsContainer.firstChild);
@@ -538,3 +502,42 @@ function createWorldCards(sectionName) {
     });
 
 }
+
+
+window.addEventListener("DOMC" +
+    "" +
+    "fontentLoaded", function () {
+    createSections();
+
+    const checkBox = document.querySelector('.switch-input');
+    const train = document.querySelector('.train');
+    const play = document.querySelector('.play');
+    let cardsBackground = document.querySelectorAll('.background');
+    checkBox.addEventListener('click', () => {
+        if (checkBox.checked) {
+            train.style.display = '';
+            play.style.display = 'none';
+            cardsBackground.forEach(cards => cards.classList.remove('background-orange'));
+        } else {
+            train.style.display = 'none';
+            play.style.display = 'block';
+            cardsBackground.forEach(card => card.classList.add('background-orange'));
+         }
+    });
+
+    const menuBtn = document.querySelector('.menu-btn-container');
+    const menu = document.querySelector('.menu-list');
+    let menuOpen = false;
+    menuBtn.addEventListener('click', () => {
+        if (!menuOpen) {
+            menuBtn.classList.add('open');
+            menu.classList.remove('menu-list-open');
+            menuOpen = true;
+        } else {
+            menuBtn.classList.remove('open');
+            menu.classList.add('menu-list-open');
+            menuOpen = false;
+        }
+    });
+});
+
